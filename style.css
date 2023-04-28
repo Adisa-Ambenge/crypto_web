@@ -1,0 +1,301 @@
+*{
+    margin: 0%;
+    padding:0%;
+  overflow-x: hidden;
+}
+
+.nav-content{
+    margin-right: 20%;
+    
+}
+.nav{
+ margin-bottom:-6%;  
+   
+   
+}
+.nav-content a{
+text-decoration: none;
+padding-left: 100px;
+color: rgb(145, 141, 141);
+
+
+}
+.nav-content a:hover{
+    color: green;
+}
+.nav-content button{
+    background-color: rgba(205, 235, 157, 0.7)
+    
+}
+#Home{
+    text-decoration-color: green;
+}
+
+/* first page */
+.section{
+background-image: url(./images/imageOne.png);
+background-size: cover;
+height: 100vh;
+}
+
+
+.crypto{
+    color: blue;
+}
+.landpage{
+    color: aliceblue;
+    padding-top: 200px;
+    padding-left: 100px;
+   
+    
+    
+}
+.landpage h1{
+    font-size: 50px;
+}
+.landpage p{
+    font-size: 20px;
+   
+    border-left: 5px solid blue;
+    padding-left: 2%;
+
+}
+.currency{
+    background-color: black;
+    color: aliceblue;
+    
+}
+
+table{
+width: 80%;
+    margin-left: 10%;
+   padding-left: 10%;
+    background-color: rgb(156, 150, 150,0.07);
+    color: aliceblue;
+    border-radius: 20px;
+    font-size: 20px;
+}
+th{
+    font-size: 20px;
+}
+
+th,td {
+    text-align: left;
+    padding: 10px;
+    padding: 4%;
+   
+}
+tr:nth-child(even){
+    background-color: rgb(49, 46, 46,0.7);
+}
+.navbarTwo{
+    background: linear-gradient(rgb(195, 233, 155),white);
+    height: 100px;
+    
+   
+}
+.sect{
+    margin-top: 5%;
+    margin-left: 20%;
+}
+.view{
+    padding-right: 2%;
+}
+.view a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+   
+}
+.tableButton{
+    padding: 20% 40% 20% 40%;
+    font-size: 1rem;
+    border-radius: 30px;
+    border: 1px solid white;
+
+}
+.tableButton:hover{
+background-color: red;
+}
+.navbarTwo a{
+    margin-left: 10%;
+    margin-bottom: 80px;
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+
+}
+.landspace{
+    background-color:black;
+    color: aliceblue;
+}
+.landpace{
+    margin: 5%;
+
+}
+.vaults{
+    border-radius: 10px; 
+    background-color: rgba(71, 71, 194, 0.7); 
+    border: 1px solid blue;
+    padding: 20px; 
+    width: 300px;  
+    height: 300px;
+    margin-top:10% ;
+    margin-right: 5%;
+   
+  
+}
+
+.vaults img{
+    height:100px ;
+    margin-left: 10%;
+    border-radius: 50px;
+    border: 1px solid blue;
+    padding: 20px;
+}
+.payment{
+    border-radius: 10px;
+    background-color: rgba(71, 71, 194, 0.7);
+    border: 1px solid blue;
+    padding: 40px; 
+    width: 300px;
+    margin-bottom: 10%;
+}
+.payment img{
+    height: 100px;
+    border-radius: 50px;
+    border: 1px solid blue;
+    padding: 20px;
+}
+.system{
+    border-radius: 10px;
+    background-color: rgba(71, 71, 194, 0.7);
+    border: 1px solid blue;
+    padding: 30px; 
+    width: 300px;
+    margin-bottom: 20%; 
+}
+.system img{
+    height: 100px;
+    border-radius: 200px;
+    border: 1px solid blue;
+    padding: 30px;
+}
+.headingOne{
+margin-top: 20%;
+
+}
+.headingOne p{
+    font-size: 20px;
+}
+.landpageTwo{
+    background-color: black;
+    color: aliceblue;
+}
+.cryptoTwo{
+    margin-top: 5%;
+}
+.cryptoTwo h5{
+    color: rgb(139, 180, 77);
+    font-size: 20px;
+}
+.cryptoTwo h3{
+    font-size: 40px;
+}
+.landscapeTwo{
+    background-color: black;
+    color: aliceblue;
+}
+.clarity{
+   display: flex;
+   margin-bottom: 5%;
+}
+.clarity img{
+    height: 100px;
+
+}
+.eyeTwo{
+    font-size: 15px;
+}
+.landpageThree{
+    background-color: black;
+}
+.tittle{
+    color: aliceblue;
+    margin-top: 10%;
+    font-size: 20px;
+}
+.tittle h2{
+    font-size: 40px;
+}
+.tittle h6{
+    color: greenyellow;
+}
+/* .google{
+    height: 50px;
+    
+} */
+.randot{
+    background-color: black;
+    color: aliceblue;
+   
+}
+.container footer{
+    margin-left: 25%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.footer{
+    background-color: rgb(17, 17, 16);
+    color: aliceblue;
+}
+.rand{
+    margin-top: 2%;
+}
+.logoTwo img{
+    height: 50px;
+}
+.rowsTwo input{
+padding: 10px;
+margin-left: 2%;
+border-radius: 20px;
+background-color: transparent;
+color: aliceblue;
+}
+.rowsTwo button{
+border-radius: 20px;
+margin-left: -17%;
+background-color: greenyellow;
+border:none ;
+
+}
+.btn-lg{
+    background-color: rgb(151, 214, 151);
+    border-radius: 20px;
+}
+@media (max-width: 480px) {
+    .nav a{
+        font-size: 4px;
+    }
+    }
+    @media (min-width: 481px) and (max-width:768px) {
+        .nav a{
+            font-size: 2px;
+        }
+        }
+        @media (min-width: 481px) and (max-width:768px) {
+            .nav a{
+                font-size: 4px;
+            }
+            }
+            @media (min-width: 769px) and (max-width:1024px) {
+                .nav a{
+                    font-size: 6px;
+                }
+                }
+                @media (min-width: 1025px) and (max-width:1200px) {
+                    .nav a{
+                        font-size: 8px;
+                    }
+                    }
